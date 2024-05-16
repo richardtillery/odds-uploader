@@ -20,4 +20,5 @@ connect if necessary to have a look:
 #
 # Test usage via command line:
 #
+> npm install
 > npm run test
