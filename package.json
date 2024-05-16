@@ -1,0 +1,12 @@
+{
+    "name": "odds-uploader",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {},
+    "dependencies": {
+        "redis": "^4.6.13"
+    },
+    "scripts": {
+        "test": "node -e 'import(\"./index.mjs\").then(lm => lm.handler({\"teamA\":\"TB\",\"teamB\":\"NE\",\"date\":\"20240514\",\"line\":\"-140\"}).then(response => console.log(response)))'"
+      }
+    }
