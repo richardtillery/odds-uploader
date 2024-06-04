@@ -4,9 +4,10 @@
     "requires": true,
     "packages": {},
     "dependencies": {
+        "@aws-sdk/client-sts": "^3.583.0",
         "redis": "^4.6.13"
     },
     "scripts": {
         "test": "node -e 'import(\"./index.mjs\").then(lm => lm.handler({\"teamA\":\"TB\",\"teamB\":\"NE\",\"date\":\"20240514\",\"line\":\"-140\"}).then(response => console.log(response)))'"
-      }
     }
+}
